@@ -2748,6 +2748,7 @@ the specific language governing permissions and limitations under the Apache Lic
                         this.updateResults(true);
                     }
                     this.positionDropdown();
+                    this.highlight(0);
                 } else {
                     // if nothing left to select close
                     this.close();
